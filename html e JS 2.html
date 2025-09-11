@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 10</title>
+</head>
+<body>
+    <script>
+        let num_estacao = 1;
+        switch (num_estacao) {
+            case 2 :
+                console.log("Outono")
+                break;
+            case 3 :
+                console.log("Inverno")
+                break;
+            case 4 :
+                console.log("Primavera")
+                break;
+            case 1:
+                console.log("Verão")
+                break;
+            default:
+                console.log("Cor Inválida. ");  
+        }
+    </script>
+        
+    <script>
+        for (let i = 1; i<= 5; i++){
+            console.log(`Número: ${i}`);
+        }
+    </script>
+
+    <script>
+        let i = 1;
+        while (i <= 5) {
+            console.log(`Número: ${i}`);
+            i++;
+        }
+    </script>
+
+    <script>
+        let senha = "1234";
+        let tentativa = "";
+
+        while (tentativa !== senha) {
+            tentativa = prompt("Digite sua senha: ");
+        }
+        console.log("Acesso liberado!");
+
+    </script>
+</body>
+</html>
