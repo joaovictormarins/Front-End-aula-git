@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/Aula 9</title>
+</head>
+
+<body>
+    <h1> Aula 9 JavaScript</h1>
+    <h2>Relembrando Conceitos</h2>
+    <br>
+    <script>
+        let texto = 'Aqui vai o script, lembra?';
+        console.log(texto); // imprimir algo na tela
+
+        let nome = 'Maria';
+        let idade = 30;
+        let ativo = true;
+
+        console.log(typeof nome); // string
+        console.log(typeof idade); //number
+        console.log(typeof ativo); // boolean
+
+        let pessoa1 = { nome: "João" };
+        console.log(typeof pessoa);
+
+        let frutas1 = ['maça', 'banana'];
+        let pessoa2 = { nome: "João" };
+
+        console.log(Array.isArray(frutas));
+        console.log(Array.isArray(pessoa));
+
+
+        console.log(true || false);
+        console.log(!true);
+
+        let pessoa = {
+            nome: "João",
+            idade: 18,
+            ativo: true
+        };
+        console.log(pessoa.nome);
+        console.log(pessoa["idade"]);
+
+        pessoa.nome = "Maria";
+        pessoa.idade = 25;
+        console.log(pessoa.nome);
+        console.log(pessoa.idade)
+
+        pessoa.cidade = "Maricá";
+        console.log(pessoa.cidade)
+
+        let aluno = {
+            nome: "victor",
+            curso: {
+                nome: "Front-End",
+                duracao: "6 meses"
+            }
+        };
+        console.log(aluno.curso.nome);
+
+        let carro = {
+            marca: "Toyota",
+            modelo: {
+                nome: "Corolla",
+                ano: "2020"
+            }
+        };
+        console.log(carro.marca.modelo);
+
+        let frutas = ["maça", "banana", "uva", "laranja"];
+        console.log(frutas[0]);
+        console.log(frutas[2]);
+
+        let times = ["flamengo", "fluminense", "vasco","botafogo"]
+        console.log(times[2]);
+        console.log(times[3]);
+
+        
+
+
+        
+        
+
+    </script>
+</body>
+
+</html>
